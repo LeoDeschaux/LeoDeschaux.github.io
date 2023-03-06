@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Carnet de bord</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script> 
+        $(function(){
+        $("#includedContent").load("navbar.html"); 
+        });
+        </script> 
+        
+    </head>
+    <body>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+
+                <!-- Top navigation-->
+                <!--
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#!">Action</a>
+                                        <a class="dropdown-item" href="#!">Another action</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#!">Something else here</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                -->
+                
+                <!-- Page content-->
+                <div class="container-fluid">
+                    <h1 class="mt-4">Matrice de compétences</h1>
+
+                    <style>
+                        table {
+                            border-collapse: collapse;
+                        }
+                        table, th, td {
+                            border: 2px solid black;
+                        }
+                        th, td {
+                            padding: 10px;
+                        }
+                        th {
+                            background-color: lightblue;
+                            text-align: left;
+                        }
+                        .color-bad {
+                            background-color: orange;
+                        }
+                        .color-medium {
+                            background-color: yellow;
+                        }
+                        .color-good {
+                            background-color: greenyellow;
+                        }
+                        .color-verygood {
+                            background-color: rgb(74, 184, 74);
+                        }
+                    </style>
+
+                    <table>
+                        <tr>
+                            <th>Code UE</th>
+                            <th>Cours</th>
+                            <th>Niveau</th>
+                            <th>Commentaire</th>
+                        </tr>
+                        <tr>
+                            <td>USRS07</td>
+                            <td>Management</td>
+                            <td class="color-verygood"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4M</td>
+                            <td>Prog avancée CPP</td>
+                            <td class="color-verygood"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4F</td>
+                            <td>Mobile</td>
+                            <td class="color-good"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4N</td>
+                            <td>Middleware avancé</td>
+                            <td class="color-verygood"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4P</td>
+                            <td>Conception sonore dynamique</td>
+                            <td class="color-verygood"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4Q</td>
+                            <td>Prépa 3D pour le jeu</td>
+                            <td class="color-good"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>USRS4R</td>
+                            <td>Game design</td>
+                            <td class="color-medium"></td>
+                            <td>Je n'ai pas commencé ce cours</td>
+                        </tr>
+                        <tr>
+                            <td>USRS4S</td>
+                            <td>IHM</td>
+                            <td class="color-medium"></td>
+                            <td>Je n'ai pas commencé ce cours</td>
+                        </tr>
+                        <tr>
+                            <td>USRS4D</td>
+                            <td>Réseaux</td>
+                            <td class="color-medium"></td>
+                            <td>Je n'ai pas commencé ce cours</td>
+                        </tr>
+                    </table>
+
+                    <br>
+
+                    <table>
+                        <tr>
+                            <td><b>Code couleur</b></td>
+                            <td class="color-bad">Aucune notion</td>
+                            <td class="color-medium">En cours d'acquisition</td>
+                            <td class="color-good">Bon</td>
+                            <td class="color-verygood">Très bon</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

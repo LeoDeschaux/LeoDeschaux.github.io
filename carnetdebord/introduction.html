@@ -10,20 +10,18 @@
         <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
+
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script> 
+        $(function(){
+        $("#includedContent").load("navbar.html"); 
+        });
+        </script> 
+        
     </head>
     <body>
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
-            <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light"><a class="list-groupe-item-home p-3" href="#!">Carnet de bord</a></div>
-                <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Introduction</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Rétrospective formative</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Matrice de compétences</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Fiche de poste</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Conclusion</a>
-                </div>
-            </div>
 
             <!-- Page content wrapper-->
             <div id="page-content-wrapper">
