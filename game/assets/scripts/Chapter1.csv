@@ -1,0 +1,4 @@
+Name,Text,Character(s) Picture(s),Background Picture,Events,Popup Display,Popup Result
+John,this is the first line,Assets/John/Idle.png,Assets/Background/City.png,,,
+Mellissa,this is the second line,Assets/Mellissa/doubt.png,Assets/Background/City.png,,,
+John & Mellissa,"My name is John, and I am just a simple man reaching out to You today. I've heard so much about You and the incredible love and wisdom You possess. It's a bit overwhelming to think about addressing this letter to the Almighty, but I felt compelled to share a few thoughts with You.",Assets/Mellissa/doubt.png,Assets/Background/City.png,,,
